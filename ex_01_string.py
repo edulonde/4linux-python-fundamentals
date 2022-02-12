@@ -1,7 +1,7 @@
 
-nome = input(print("Digite seu nome: "))
-cpf = input(str(print("Digite seu CPF: ")))
-idade = input(print("Digite sua idade: "))
+nome = input("Digite seu nome: ")
+cpf = input(str("Digite seu CPF: "))
+idade = input("Digite sua idade: ")
 
 
 def imprimir_confirmacao_cadastro ():
