@@ -45,3 +45,4 @@ while True:
     imprimir_menu()
     opcao = int(input("Digite a opção desejada:"))
     processo_escolha(opcao)
+
