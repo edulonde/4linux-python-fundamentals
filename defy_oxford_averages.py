@@ -31,3 +31,15 @@ mode = statistics.multimode(list_sorted)
 
 print(f"the average is {format_average}, the median is {median} and the mode is {mode}")
 
+save = input("Do you want to save the list in a file? (y/n)")
+if save.lower() == 'y':
+    f = open("list_average.txt", "w")
+    f.write(f"The list: {list_sorted} \n"
+            f"the average is {format_average}, the median is {median} and the mode is {mode}")
+    f.close()
+elif save.lower() == 'n':
+    exit()
+else:
+    print("invalid choice")
+
+
