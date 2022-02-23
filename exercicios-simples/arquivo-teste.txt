@@ -1,0 +1,1 @@
+ Esse texto será lido letra a letra por uma iteração através de um for e será feito a contagem das vogais. Depois esse texto será armazenado em um arquivo txt

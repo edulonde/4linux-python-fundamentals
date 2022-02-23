@@ -3,16 +3,13 @@ import time
 
 participantes = ['Grace', 'Ada', 'Neumann', 'Dijkstra', 'Guido']
 
-
 def gerar_num_aleatorio():
     tam_ptcpts = len(participantes)
     num_aleatorio = randint(0, tam_ptcpts - 1)
     return num_aleatorio
 
-
 def aguardar_03_segundos():
-    time.sleep(2)
-
+    time.sleep(3)
 
 def principal():
     print("número de participantes da rodada: ",len(participantes))
@@ -22,7 +19,7 @@ def principal():
 
         while len(participantes) != 1 :
             n_aleatorio = gerar_num_aleatorio()
-            print(n_aleatorio)
+            # print(n_aleatorio)
             print(f"O candidato a sair foi: {participantes[n_aleatorio]}")
             del participantes[n_aleatorio]
             print('.' * 9)
